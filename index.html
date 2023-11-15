@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat bot 🤖</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+</head>
+
+<body>
+    <button class="chatbot-toggler">
+        <i class="bi bi-chat"></i>
+        <i class="bi bi-x"></i>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <i class="bi bi-x close-btn"></i>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <i class="bi bi-robot"></i>
+                <p>Hi there 👋 <br> How can I help you today?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <i id="send-btn" class="bi bi-send"></i>
+        </div>
+    </div>
+
+
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
